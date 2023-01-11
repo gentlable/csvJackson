@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+	<header>
+		<h1 th:text="INDEX"></h1>
+	</header>
+	<main>
+		<div>
+			<p th:text="${json}"></p>
+		</div>
+	
+		<div>
+			<button th:attr="onClick='location.href=\'/'+'\''" th:text="index"></button>
+			<button th:attr="onClick='location.href=\'/csv'+'\''" th:text="csv"></button>
+		</div>
+	</main>
+
+</body>
+
+
+
+</html>
